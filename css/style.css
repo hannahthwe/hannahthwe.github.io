@@ -147,12 +147,12 @@ a{
 #preloader .loader_line{
     margin: auto;
     width: 1px;
-    height: 200px;
+    height: 250px;
     position: relative;
     overflow: hidden;
-    -webkit-transition: all 0s ease 0s;
-    -o-transition: all 0s ease 0s;
-    transition: all 0s ease 0s;
+    -webkit-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
 }
 .loader_line:before{
     content: '';
@@ -166,9 +166,9 @@ a{
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     background-color: #fff;
-    -webkit-animation: lineheight 500ms ease-in-out 0s forwards;
-    -o-animation: lineheight 500ms ease-in-out 0s forwards;
-    animation: lineheight 500ms ease-in-out 0s forwards;
+    -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
+    -o-animation: lineheight 1000ms ease-in-out 0s forwards;
+    animation: lineheight 1000ms ease-in-out 0s forwards;
 }
 .loader_line:after{
     content: '';
